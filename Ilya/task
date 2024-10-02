@@ -1,0 +1,29 @@
+------<Ukrainian>------
+Дано цілочисловий лінійний масив на N елементів. Видалити з масиву елементи, значення яких менші від значення двох сусідніх елементів. У перетвореному масиві знайти суму індексів парних елементів.
+
+Вхідні данні:
+У вхідному потоці в першому рядку задано натуральне число N - кількість елементів цілочислового масиву (N <= 32000)У другому рядку перераховані через пропуск значення елементів масиву, які по модулю не перевищують 32000.
+Приклад вхідного файлу (input.txt):
+6
+6 4 5 9 6 1
+
+Вихідні данні:
+У вихідний потік вивести одне ціле число.
+Приклад віхідного файлу (output.txt):
+4
+
+
+
+------<English>------
+An integer linear array of N elements is given. Remove from the array the elements whose values are less than the values of two neighboring elements. In the transformed array find the sum of the indices of paired elements.
+
+Input:
+In the input stream, the first line contains a positive integer N - the number of elements of an integer array (N <= 32000)The second line contains the values of the array elements, which do not exceed 32000 by absolute value.
+Example of the input file (input.txt):
+6
+6 4 5 9 6 1
+
+Output:
+Print one integer in the output stream.
+Example of the output file (output.txt):
+4
